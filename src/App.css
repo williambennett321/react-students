@@ -36,8 +36,24 @@
     transform: rotate(360deg);
   }
 }
-
-#card {
+.bio {
   display: flex;
-  
+  justify-content: center;
 }
+.card-header {
+  display: flex;
+  justify-content: center;
+}
+.card-body {
+  display: flex;
+  justify-content: center;
+}
+
+.card-text {
+display: flex;
+  justify-content: center;
+}
+.score {
+  padding: 0px 30px;
+}
+
