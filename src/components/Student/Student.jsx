@@ -1,7 +1,8 @@
 import Score from "../Score/Score";
 const Student = (props) => {
   return (  
-    <div class = "card border-dark mb-3">
+<div id="card">
+  <div class = "card border-dark mb-3">
     <>
     <div class = "card-header">
     <h1>{props.student.name}</h1>
@@ -17,7 +18,8 @@ const Student = (props) => {
     )}
     </div>
     </>
-    </div>
+  </div>
+</div>
 
   );
 }
